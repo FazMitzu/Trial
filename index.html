@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q&A</title>
+<script>
+function displayPopup() {
+  alert("Thank you for your time");
+}
+</script>
+</head>
+<body>
+
+<h2>Q&A Section</h2>
+
+<div id="questions">
+  <p><strong>Q: Is your name Narnia?</strong></p>
+  <form id="q1">
+    <input type="radio" id="q1_a1" name="q1_answer" value="Yes">
+    <label for="q1_a1">Yes</label><br>
+    <input type="radio" id="q1_a2" name="q1_answer" value="No">
+    <label for="q1_a2">No</label><br>
+  </form>
+
+  <p><strong>Q: How's your day?</strong></p>
+  <form id="q2">
+    <input type="radio" id="q2_a1" name="q2_answer" value="Great">
+    <label for="q2_a1">Great</label><br>
+    <input type="radio" id="q2_a2" name="q2_answer" value="Good">
+    <label for="q2_a2">Good</label><br>
+    <input type="radio" id="q2_a3" name="q2_answer" value="Okay">
+    <label for="q2_a3">Okay</label><br>
+    <input type="radio" id="q2_a4" name="q2_answer" value="Not so good">
+    <label for="q2_a4">Not so good</label><br>
+  </form>
+
+  <p><strong>Q: Have you eaten?</strong></p>
+  <form id="q3">
+    <input type="radio" id="q3_a1" name="q3_answer" value="Yes">
+    <label for="q3_a1">Yes</label><br>
+    <input type="radio" id="q3_a2" name="q3_answer" value="No">
+    <label for="q3_a2">No</label><br>
+  </form>
+
+  <p><strong>Q: What do you think about me?</strong></p>
+  <form id="q4">
+    <input type="radio" id="q4_a1" name="q4_answer" value="You're great">
+    <label for="q4_a1">You're great</label><br>
+    <input type="radio" id="q4_a2" name="q4_answer" value="You're okay">
+    <label for="q4_a2">You're okay</label><br>
+    <input type="radio" id="q4_a3" name="q4_answer" value="You're not great">
+    <label for="q4_a3">You're not great</label><br>
+  </form>
+
+  <p><strong>Q: Can I be more than friends to you?</strong></p>
+  <form id="q5">
+    <input type="radio" id="q5_a1" name="q5_answer" value="Yes, sure">
+    <label for="q5_a1">Yes, sure</label><br>
+    <input type="radio" id="q5_a2" name="q5_answer" value="Let's just be friends">
+    <label for="q5_a2">Let's just be friends</label><br>
+    <input type="radio" id="q5_a3" name="q5_answer" value="No, sorry">
+    <label for="q5_a3">No, sorry</label><br>
+  </form>
+
+  <p><strong>Q: Can you be mine?</strong></p>
+  <form id="q6">
+    <input type="radio" id="q6_a1" name="q6_answer" value="I'm just a program">
+    <label for="q6_a1">I'm just a program</label><br>
+    <input type="radio" id="q6_a2" name="q6_answer" value="Sure, why not">
+    <label for="q6_a2">Sure, why not</label><br>
+    <input type="radio" id="q6_a3" name="q6_answer" value="No, I can't">
+    <label for="q6_a3">No, I can't</label><br>
+  </form>
+
+</div>
+
+<button onclick="displayPopup()">Submit</button>
+
+</body>
+</html>
